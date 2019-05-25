@@ -5,6 +5,7 @@
     "packages/*"
   ],
   "scripts": {
+    "start": "yarn workspace @echidna/speak start",
     "docker": "docker-compose -f .docker/docker-compose.yml run --rm",
     "docker:bash": "yarn -s docker echidna /bin/bash",
     "bash": "yarn -s docker:bash"
