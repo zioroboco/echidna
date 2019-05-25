@@ -1,0 +1,7 @@
+{
+  "name": "Echidna",
+  "dockerComposeFile": "../docker/docker-compose.yml",
+  "service": "echidna",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose"
+}
