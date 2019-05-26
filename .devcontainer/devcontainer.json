@@ -3,6 +3,7 @@
   "dockerComposeFile": "../docker/docker-compose.yml",
   "service": "echidna",
   "workspaceFolder": "/workspace",
+  "postCreateCommand": "yarn install --frozen-lockfile",
   "shutdownAction": "stopCompose",
   "extensions": ["esbenp.prettier-vscode"]
 }
