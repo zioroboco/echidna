@@ -1,9 +1,18 @@
 version: "3"
 services:
+  verdaccio:
+    image: verdaccio/verdaccio:latest
+    ports:
+      - 4873:4873
+    networks:
+      - default
+
   echidna:
     build:
       context: .
       dockerfile: Dockerfile
+    networks:
+      - default
 
     volumes:
       - .:/workspace
@@ -18,3 +27,7 @@ services:
 
     # Override default command so things don't shut down after the process ends
     command: sleep infinity
+
+networks:
+  default:
+    driver: bridge
