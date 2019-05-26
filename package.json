@@ -1,14 +1,15 @@
 {
-  "license": "UNLICENSED",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "start": "yarn workspace @echidna/speak start",
-    "docker": "docker-compose -f .docker/docker-compose.yml run --rm",
-    "docker:bash": "yarn -s docker echidna /bin/bash",
-    "bash": "yarn -s docker:bash"
+    "docker-compose": "docker-compose -f .docker/docker-compose.yml",
+    "docker-compose:run": "yarn docker-compose run --rm",
+    "echidna": "yarn -s docker-compose:run echidna",
+    "echidna:bash": "yarn -s echidna /bin/bash || :",
+    "bash": "yarn -s echidna:bash"
   },
   "devDependencies": {
     "@types/node": "^12.0.2",
