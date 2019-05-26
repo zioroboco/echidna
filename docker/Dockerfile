@@ -33,3 +33,5 @@ RUN echo "PS1='🐳  \[\033[1;36m\]\h \[\033[1;34m\]\W\[\033[0;35m\] \[\033[1;36
 
 # Set vi editing mode
 RUN echo "set editing-mode vi" >> ~/.inputrc
+
+ENV PATH="/workspace/node_modules/.bin:${PATH}"
