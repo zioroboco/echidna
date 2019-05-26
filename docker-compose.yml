@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
 
     volumes:
-      - ..:/workspace
+      - .:/workspace
 
       # Avoid setting up Git again in the container
       - ~/.gitconfig:/root/.gitconfig

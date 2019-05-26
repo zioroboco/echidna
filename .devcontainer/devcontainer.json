@@ -1,6 +1,6 @@
 {
   "name": "Echidna",
-  "dockerComposeFile": "../docker/docker-compose.yml",
+  "dockerComposeFile": "../docker-compose.yml",
   "service": "echidna",
   "workspaceFolder": "/workspace",
   "postCreateCommand": "yarn install --frozen-lockfile",
