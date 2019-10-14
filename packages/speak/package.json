@@ -1,11 +1,11 @@
 {
   "name": "@echidna/speak",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "license": "UNLICENSED",
   "scripts": {
     "start": "ts-node ."
   },
   "dependencies": {
-    "@echidna/thing": "*"
+    "@echidna/thing": "^0.1.1"
   }
 }
