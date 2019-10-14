@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/zioroboco/echidna/compare/echidna-thing@0.2.0...echidna-thing@0.3.0) (2019-10-14)
+
+
+### Features
+
+* add cool comments everywhere ([47d846e](https://github.com/zioroboco/echidna/commit/47d846e))
+
+
+
+
+
 # [0.2.0](https://github.com/zioroboco/echidna/compare/echidna-thing@0.1.0...echidna-thing@0.2.0) (2019-10-14)
 
 
