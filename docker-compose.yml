@@ -16,6 +16,8 @@ services:
     volumes:
       - .:/workspace
     working_dir: /workspace
+    environment:
+      - GH_TOKEN
 
 networks:
   default:
