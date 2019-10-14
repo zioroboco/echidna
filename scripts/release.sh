@@ -12,5 +12,5 @@ git config --global commit.gpgsign false
 
 npm login --registry http://verdaccio:4873
 
-lerna version -m "chore: release" --conventional-commits --github-release --yes
+lerna version -m "chore: release [skip ci]" --conventional-commits --github-release --yes
 lerna publish from-package --registry http://verdaccio:4873 --yes
