@@ -1,4 +1,5 @@
 const emoji = {
+  penguin: "🐧",
   squid: "🦑",
   success: "✅",
   failure: "❌"
