@@ -1,7 +1,0 @@
-{
-  "name": "Echidna",
-  "dockerComposeFile": "../docker-compose.yml",
-  "service": "dev",
-  "workspaceFolder": "/workspace",
-  "extensions": ["esbenp.prettier-vscode"]
-}

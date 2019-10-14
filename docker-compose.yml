@@ -7,20 +7,15 @@ services:
     networks:
       - default
 
-  dev:
+  release:
     build:
       context: .
-      dockerfile: .docker/dev.Dockerfile
+      dockerfile: Dockerfile
     networks:
       - default
     volumes:
       - .:/workspace
-      # Avoid setting up Git again in the container
-      - ~/.gitconfig:/root/.gitconfig
-      # Forward the local Docker socket to the container
-      - /var/run/docker.sock:/var/run/docker.sock
     working_dir: /workspace
-    command: sleep infinity
 
 networks:
   default:
