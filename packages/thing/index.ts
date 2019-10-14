@@ -5,6 +5,7 @@ const emoji = {
   failure: "❌"
 }
 
+// cool coment
 const format = (message: string, status: keyof typeof emoji = "success") =>
   `${emoji[status]}  ${message}`
 
