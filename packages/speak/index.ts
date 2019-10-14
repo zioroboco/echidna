@@ -1,3 +1,3 @@
-import { thing } from "@echidna/thing"
+import { thing } from "echidna-thing"
 
 console.log(thing)
