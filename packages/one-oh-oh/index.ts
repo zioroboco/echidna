@@ -1,1 +1,1 @@
-export default "zero"
+export default "one-oh-oh"
