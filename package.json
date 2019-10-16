@@ -1,6 +1,7 @@
 {
   "private": true,
   "workspaces": [
+    "unversioned",
     "packages/*"
   ],
   "scripts": {
