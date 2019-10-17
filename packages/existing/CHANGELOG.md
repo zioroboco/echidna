@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2019-10-17)
+
+
+### chore
+
+* Add package with existing changelog ([8000f48](https://github.com/zioroboco/echidna/commit/8000f48))
+
+
+### BREAKING CHANGES
+
+* Publish from new repo
+
+
+
+
+
 # [1.1.0](https://github.com/zioroboco/somewhere/compare/echidna-existing@1.0.1...echidna-existing@1.1.0) (2019-10-16)
 
 
