@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/zioroboco/echidna/compare/echidna-existing@2.0.0...echidna-existing@3.0.0) (2019-10-19)
+
+
+### Features
+
+* Better existing-ness ([#2](https://github.com/zioroboco/echidna/issues/2)) ([863d9b3](https://github.com/zioroboco/echidna/commit/863d9b3))
+
+
+### BREAKING CHANGES
+
+* Use named export for existing
+
+
+
+
+
 # 2.0.0 (2019-10-17)
 
 
