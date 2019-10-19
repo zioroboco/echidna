@@ -1,1 +1,1 @@
-export default "existing"
+export const existing = "Existing"
