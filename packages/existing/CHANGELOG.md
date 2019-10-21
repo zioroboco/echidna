@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/zioroboco/echidna/compare/echidna-existing@3.1.0...echidna-existing@3.2.0) (2019-10-21)
+
+
+### Features
+
+* add cool file via prepublish script ([a3b1e81](https://github.com/zioroboco/echidna/commit/a3b1e81))
+
+
+
+
+
 # [3.1.0](https://github.com/zioroboco/echidna/compare/echidna-existing@3.0.0...echidna-existing@3.1.0) (2019-10-21)
 
 
