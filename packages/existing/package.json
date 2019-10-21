@@ -1,5 +1,8 @@
 {
   "name": "echidna-existing",
   "version": "3.1.0",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "scripts": {
+    "prepublish": "touch cool-file.js"
+  }
 }
