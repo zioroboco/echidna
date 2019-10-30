@@ -1,12 +1,10 @@
 const emoji = {
   penguin: "🐧",
-  squid: "🦑",
-  success: "✅",
-  failure: "❌"
+  squid: "🦑"
 }
 
 // cool coment
-const format = (message: string, status: keyof typeof emoji = "success") =>
+const format = (message: string, status: keyof typeof emoji = "penguin") =>
   `${emoji[status]}  ${message}`
 
 export const thing = format("Working!")
