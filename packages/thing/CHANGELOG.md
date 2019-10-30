@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/zioroboco/echidna/compare/echidna-thing@0.3.0...echidna-thing@1.0.0) (2019-10-30)
+
+
+### Features
+
+* Break a bunch of stuff ([#3](https://github.com/zioroboco/echidna/issues/3)) ([e221474](https://github.com/zioroboco/echidna/commit/e221474))
+
+
+### BREAKING CHANGES
+
+* Failure is no longer an option
+* Success, too, is objective...
+
+Let's not go into too much detail, but I'm sure I meant *something* by that.
+
+
+
+
+
 # [0.3.0](https://github.com/zioroboco/echidna/compare/echidna-thing@0.2.0...echidna-thing@0.3.0) (2019-10-14)
 
 
